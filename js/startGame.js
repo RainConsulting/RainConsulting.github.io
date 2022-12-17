@@ -86,7 +86,7 @@ class StartGame extends Phaser.Scene {
       "background"
     );
     // Help
-    let objectives = ["Objective:", "Avoid the rain drops to save your lives!"];
+    let objectives = ["Objective:", "Avoid the drops of rain and don't lose your hearts!"];
     let lines = [
       "Controls:",
       "Press left, right arrow key to go left and right",
@@ -100,8 +100,8 @@ class StartGame extends Phaser.Scene {
     if (this.game.config.width < 500) {
       objectives = [
         "Objective:",
-        "Avoid the rain drops",
-        "to save your lives!",
+        "Avoid the drops of rain and",
+        "don't lose your hearts!",
       ];
       lines = [
         "Controls:",
