@@ -95,7 +95,7 @@ class PlayGame extends Phaser.Scene {
       assetText.destroy();
     });
 
-    this.load.image("background", "./assets/background.png");
+    this.load.image("background", "./assets/background2.png");
     this.load.image("ground", "./assets/floor.png");
     this.load.spritesheet("dude", "./assets/left-right.png", {
       frameWidth: 291,
